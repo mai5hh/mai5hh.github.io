@@ -1,0 +1,209 @@
+body {
+	
+	font-size: 24px;
+	margin: 0;
+}
+
+
+img {
+	width: 400px;
+	border: 10px solid black;
+	border-radius: 20%;
+}
+
+p {
+	text-align: center;
+	color: #f2f2f2;
+	font-family: Arial;
+}
+
+h3 {
+	text-align: center;
+	color: #f2f2f2;
+	font-family: Arial;
+	font-size: 40px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+/*remove padding and margin from list and add a black background */
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+/*float list items side by side */
+ul.topnav li {float: left;}
+
+/*style links inside the list items */
+ul.topnav li a {
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+/* change background color of links on hover */
+ul.topnav li a:hover {background-color: #555}
+
+/* Hide the list item that contains items that should open and close on small screens */
+ul.topnav li.icon {display: none;}
+
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+html { 
+  background: url(map.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.nav-bar li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav-bar ul {
+	text-align: right;\
+	height: 50px;
+	padding-top: 12px;
+}
+
+.nav-bar {
+	background-color: pink;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.profile-pic img {
+	border-radius: 100%;
+	width: 300px;
+	position: relative;
+	border-color: #333;
+}
+
+.profile-pic {
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 100px; 
+}
+
+
+p {
+	padding: 20px 30px; /* top-bottom, lef-right. 4 
+	pixels are top, right, bottom, left. this is the same for margin */
+}
+/* if you give two divs 50%  and they dont show up on the same line, 
+but they will be pushed off cuz they are one pixel off. to get out of that.
+
+/* media queries: when the screen is less than a certain width, 
+we want text to wrap to certain line */
+
+
+
+
+}
+
+html, body {
+  overflow-x: hidden;
+}
+/*
+.full-width {
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+*/
+/*color of the header and text */
+h3.full-width {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-size: 40px;
+	color: #f2f2f2;
+
+}
+/*
+h3.full-width {
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 30px;
+}
+*/
+/*
+.wrap {
+
+  margin: 0 -9999rem;
+
+  padding: 0.25rem 9999rem;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+*/
+/*color of the header and text */
+.wrap {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-size: 25px;
+	color: #f2f2f2;
+
+}
+
+.wrap2 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+/*	font-size: 25px; */
+	color: #A9A9A9;
+	text-align: center;
+
+}
+
